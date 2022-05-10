@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(232, 184, 236);
+    color: white;
+}
+h1{
+    background-color: #c572b3;
+}
+canvas{
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    animation-name: kirishima;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes kirishima{
+    from{
+        box-shadow: 6px 6px 30px #eca6cd;
+        
+    }
+    to{
+        box-shadow: 6px 6px 30px #ffffff;
+        
+    }
+} 
